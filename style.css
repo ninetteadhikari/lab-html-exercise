@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+/* Nav bar  */
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+  .search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .searchbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 850px;
+    margin-right: 0px;
+}
+  .searchForm {
+    background-color: rgba(0,0,0,.05);
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .searchForm input {
+    color: rgba(0,0,0,.05);
+    background-color: transparent;
+    border:none;
+    width:750px;
+    padding: 10px;
+  }
+  .searchForm button {
+    background: #fb3e44;
+    color: white;
+    border:none;
+    padding: 10px;
+  }
+
+  .npmLogo {
+    width: 60px;
+    margin-right: 1rem;
+  }
+
+  .magGlass {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 8px;
+  }
+
+  .link-btn-join {
+      background-color: transparent;
+      color:black;
+      padding: 5px 10px;
+      border-color: grey;
+      text-decoration: none;
+  }
+
+  .link-btn-login {
+    background-color: transparent;
+    color:black;
+    padding: 5px 10px;
+    text-decoration: none;
+
+}
+
+.nav-btn{
+    padding: 5px 5px;
+    margin:0px 5px;
+    width:124px;
+}
+
+/* Intro page */
+
+#intro-page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#intro-page article{
+    font-size: 1rem;
+    text-align: center;
+    width: 40%;
+    margin: 0 0 30 0;
+}
+
+.link-btn-red{
+    color: white;
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    padding: 10px 40px;
+    margin: 40px;
+    text-decoration: none;
+}
+
+.link-btn-white{
+    color:black;
+    text-decoration: none;
+}
+
+/* Quote */
+#quote{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+}
+
+h2{
+    background-color:rgba(255,204,53,.4);
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+    transform: skew(9deg,0deg);
+}
+
+.hexagon{
+    width:200px;
+}
+#quote article{
+    font-size: 1rem;
+    text-align: center;
+    width: 60%;
+    margin: 0 0 30 0;
+}
+
+/* Features */
+#features{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+#features .subfeature{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
+#features div > article{
+    color: #ED1C24;
+}
+
+.subfeature p{
+    font-size:.85rem;
+}
+
+#features div > img{
+    width:30px;
+}
+
+/* Org button */
+.link-btn-black{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    text-decoration: none;
+    padding:10px 40px;
+    margin: 70 400 100 400;
+}
